@@ -35,12 +35,8 @@
         <div class="container">
           <a href="/" class="brand"><img src="http://s3.amazonaws.com/jetstrap-site/images/jetstrap_logo.png"></a>
           <ul class="nav pull-right">
-            <li><a href="http://jetstrap.com/">Jetstrap</a></li>
-            <li><a href="http://jetstrap.com/#about">About</a></li>
-            <!--<li><a href="http://jetstrap.com/#love">Love</a></li>-->
-            <li><a href="http://blog.jetstrap.com/" target="_blank">Blog</a></li>
-            <li><a href="https://github.com/driftyco/jetstrap-docs/tree/gh-pages" target="_blank">Fork This!</a></li>
-            <li style="line-height: 59px; vertical-align: middle"><a href="http://jetstrap.com/" class="orange-button">Sign up free</a></li>
+            <li><a href="http://fenwick.com/">Fenwick & West LLP</a></li>
+            <li><a href="https://github.com/jboehmig/startuplaw101/tree/gh-pages" target="_blank">Fork This!</a></li>
           </ul>
         </div>
       </div>
@@ -51,11 +47,17 @@
           <ul id="menu" class="nav nav-list" data-spy="affix">
             <li class="nav-header">STARTUP LAW 101</li>
             <li data-section=""><a href="/">Home</a></li>
-            <li class="nav-header">THE BASICS</li>
-            <li data-section="jetstrap/gettingstarted"><a href="/jetstrap/gettingstarted.html">Getting Started</a></li>
-            <li data-section="builder/components"><a href="/builder/components.html">Components</a></li>
+            <li class="nav-header">EARLY STAGE</li>
+            <li data-section="earlystage/incorporation"><a href="/earlystage/incorporation.html">Where to Incorporate</a></li>
+            <li data-section="earlystage/equity"><a href="/earlystage/equity.html">Ownership in the Company</a></li>
+            <li data-section="earlystage/team"><a href="/earlystage/team.html">Building a Team</a></li>
+            <li data-section="earlystage/investors"><a href="/earlystage/investors.html">The Board of Directors</a></li>
+            <li class="nav-header">FOUNDER STORIES</li>
+            <li data-section="founders/gettingstarted"><a href="/jetstrap/gettingstarted.html">Founder X</a></li>
+            <li data-section="founders/components"><a href="/builder/components.html">Founder Y</a></li>
             <li class="nav-header">ABOUT THE AUTHORS</li>
-            <li><a href="mailto:support@jetstrap.com">Contact Support</a></li>
+            <li data-section="authors/gettingstarted"><a href="/jetstrap/gettingstarted.html">Sam Angus</a></li>
+            <li data-section="authors/components"><a href="/builder/components.html">Jason Boehmig</a></li>
           </ul>
         </div>
         <div class="span9">
@@ -76,19 +78,7 @@
       $('#menu [data-section="{{page.section}}"]').addClass('active');
     </script>
 
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-33987438-3']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
+    
   </body>
 </html>
 
